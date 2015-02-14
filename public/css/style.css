@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.hm-sc {
+  min-height: 500px;
+}
+.hm-sc .particles-container {
+  position: absolute;
+  left: 0;
+  top: 150px;
+  background: #4b4b4b;
+  height: 200px;
+  width: 100%;
+  -ms-transform: skewY(-3deg);
+  /* IE 9 */
+  -webkit-transform: skewY(-3deg);
+  /* Chrome, Safari, Opera */
+  transform: skewY(-3deg);
+  /* Standard syntax */
+}
+.hm-sc .main-txt {
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+  text-align: center;
+  color: #4b4b4b;
+  font-size: 80px;
+}
